@@ -167,7 +167,7 @@ export default function PersistentDrawerLeft() {
             backgroundColor: "#EEC166",
           },
         }}
-        variant={`${window.innerWidth > 768 ? "persistent" : "temporary"}`}
+        variant="persistent"
         anchor="left"
         open={open}
       >
